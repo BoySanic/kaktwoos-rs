@@ -1,4 +1,4 @@
-name: kaktoos-rs-build
+name: kaktwoos-rs-build-linux-x86
 
 on: [push]
 
@@ -22,6 +22,5 @@ jobs:
          
       - uses: actions/upload-artifact@v2
         with:
-          name: kaktoos-rs-lin
-          path: ./kaktoos-rs*
-
+          name: kaktwoos-rs-lin
+          path: ./kaktwoos-rs*
