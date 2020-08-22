@@ -1,4 +1,4 @@
-name: kaktwoos-rs-build-linux-x86
+name: kaktwoos-rs-build
 
 on: [push]
 

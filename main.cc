@@ -61,7 +61,7 @@ int main(int argc, char **argv)
 	for (int i = 1; i < argc; i += 2)
 	{
 		const char *param = argv[i];
-		if (strcmp(param, "-t") == 0 || strcmp(param, "--threads") == 0)
+		if (strcmp(param, "-t") == 0 || strcmp(param, "--nthreads") == 0)
 		{
 			threads = atoi(argv[i + 1]);
 		}
